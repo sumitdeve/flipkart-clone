@@ -1,0 +1,12 @@
+.offer-banner{
+    width: 100%;
+    margin: 1vw;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    gap: 8px
+}
+.offer-banner img{
+    width: 32.2%;
+
+}

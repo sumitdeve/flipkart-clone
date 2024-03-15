@@ -1,0 +1,33 @@
+.pro1{
+    max-width: 170px;
+    border: 1px solid #888;
+    border-radius: 5px;
+    padding: 10px 25px;
+    text-align: center;
+    cursor: pointer;
+    
+}
+.pro1 img{
+    width: 110px;
+    height: 100px;
+    transition: 0.2s ease-in-out;
+}
+.pro1:hover img{
+    scale:  1.1;
+}
+.pro1 p{
+    color: #222;
+    font-size: 13px;
+    padding-top: 10px;
+
+}
+.pro1 h5{
+    font-size: 13px;
+    color: #111;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.pro1 h6{
+    font-size: 11px;
+    color: #222;
+}

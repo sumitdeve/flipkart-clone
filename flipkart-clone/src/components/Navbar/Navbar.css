@@ -1,0 +1,77 @@
+nav{
+    height: 70px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4vw 0  7vw;
+
+}
+.logo img{
+    width: 120px;
+    height: 42px;
+    padding: 0;
+    cursor: pointer;
+}
+.searchBar{
+    display: flex;
+    align-items: center;
+}
+
+.searchBar input{
+    position: relative;
+    width: 43vw;
+    padding: 12px 12px  12px 40px;
+    outline: none;
+    border: none;
+    background-color: #e7eef0;
+    border-radius: 10px;
+}
+.searchBar input::placeholder{
+    font-size: 17px;
+    font-weight: 300;
+} 
+.searchBar i{
+    position: absolute;
+    left: 20.5vw;
+    font-size: 18px;
+    color: #757171;
+}
+.nav-cart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+.nav-cart .login,.cart,.seller,.dot{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.login i{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.822);
+}
+.login p{
+    padding-left: 8px;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.822);
+}
+.cart i{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.822);
+}
+.cart p{
+    padding-left: 8px;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.822);
+}
+.seller i{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.822);
+}
+.seller p{
+    padding-left: 8px;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.822);
+}
